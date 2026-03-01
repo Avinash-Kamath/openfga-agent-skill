@@ -12,22 +12,25 @@ Talk to your OpenFGA instance in plain English. The skill translates your intent
 **Run queries** — check, list-objects, list-users, expand
 **Run test suites** — from a `.yaml` test file
 
-## Setup
+## Get started
 
-Requires the [fga CLI](https://github.com/openfga/cli) installed and an OpenFGA instance running.
+**1. Install the plugin**
+```
+/plugin marketplace add Avinash-Kamath/openfga-agent-skill
+/plugin install openfga-agent-skill@Avinash-Kamath
+```
 
-On first use, run:
+**2. Install the [fga CLI](https://github.com/openfga/cli)**
+```
+brew install openfga/tap/fga
+```
+
+**3. Connect to your OpenFGA instance**
 ```
 /openfga connect
 ```
 
 The skill will ask for your OpenFGA URL and API token, verify the connection, and save them to `.fga-skill.env` in your working directory.
-
-## Usage
-
-```
-/openfga <operation> [args]
-```
 
 ---
 
