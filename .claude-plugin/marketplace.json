@@ -1,11 +1,11 @@
 {
-  "name": "openfga-skill",
+  "name": "openfga-agent-skill",
   "owner": {
-    "name": "Scalekit"
+    "name": "Avinash-Kamath"
   },
   "plugins": [
     {
-      "name": "openfga-skill",
+      "name": "openfga-agent-skill",
       "source": "./",
       "description": "Test and manage OpenFGA authorization stores directly from Claude Code using the fga CLI",
       "version": "1.0.0"
