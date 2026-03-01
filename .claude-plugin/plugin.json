@@ -1,0 +1,17 @@
+{
+  "name": "openfga-skill",
+  "version": "1.0.0",
+  "description": "Test and manage OpenFGA authorization stores directly from Claude Code using the fga CLI",
+  "author": {
+    "name": "Scalekit"
+  },
+  "repository": "https://github.com/scalekit-inc/openfga-skill",
+  "license": "MIT",
+  "keywords": [
+    "openfga",
+    "authorization",
+    "fga",
+    "permissions",
+    "rebac"
+  ]
+}
